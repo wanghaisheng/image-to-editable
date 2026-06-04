@@ -1,0 +1,2 @@
+# image-to-editable
+整理从imagen转成可编辑ppt的核心逻辑 我们目标是创建一个帮助傻瓜用户创建精美ppt的capacitor app
