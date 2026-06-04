@@ -12,6 +12,16 @@
 - [图片效果图到可点击互动 HTML Demo 的复原文档](docs/image-screenshot-to-interactive-html.md)
 - [图片效果图到游戏引擎 Prefab 的复原文档](docs/image-screenshot-to-game-prefab.md)
 
+
+## Image-first + 可编辑重建方法
+
+本仓库现在把 PPT 场景明确拆成两个阶段：
+
+1. **image2 / imagegen 视觉定稿**：先生成每页独立的 `slideXX_reference.png`，用真实图片锁定版式、配色、复杂插图、图标、地图和图表卡片效果。
+2. **PowerPoint / Presentations 可编辑重建**：不要把整页图贴进 PPT，而是裁取局部复杂视觉资产，并用 PPT 原生文本框、形状、表格、箭头、卡片、标签和结论条重建可编辑结构。
+
+关键红线：最终 PPT 不能是一张整页截图；可读文字、卡片、箭头、标签、结论条应尽量可编辑；只有复杂插画、地图、图标组、纹理和难以可靠重画的图表卡片才作为局部截图资产保留。详细规则见 [图片设计稿到可编辑 PPT 的复原文档](docs/image-design-to-editable-ppt.md)。
+
 ## 核心结论
 
 复原流程不应直接把整张图嵌入目标产物，而应先把图片拆解为文本、形状、图片资产、交互/绑定与 QA 证据，再通过中间 `layout.json` 转换为不同平台产物：
