@@ -11,6 +11,7 @@
 - [图片设计稿到可编辑 PPT 的复原文档](docs/image-design-to-editable-ppt.md)
 - [图片效果图到可点击互动 HTML Demo 的复原文档](docs/image-screenshot-to-interactive-html.md)
 - [图片效果图到游戏引擎 Prefab 的复原文档](docs/image-screenshot-to-game-prefab.md)
+- [Convex + ChatGPT 驱动的效果图到可编辑产物产品计划](docs/product-plan-convex-chatgpt.md)
 
 
 ## Image-first + 可编辑重建方法
